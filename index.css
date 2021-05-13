@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  /* background-color: #f0efeb; */
+  background-image:url("./img/1.png");
+  /* background-repeat: repeat; */
+}
+
+h1{
+  text-align: center;
+  color: wheat;
+}
+
+#logo {
+  width: 98%;
+  margin: -0.5% 0;
+  padding: 1%;
+  background-color: black;
+}
+
+.menue{
+  background-image:url("./img/123.png");
+  border-radius: 40px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  width: 20%;
+  height: 80vh;
+  margin: auto;
+}
+
+.menuButton {
+    width: 20%;
+    padding: 8%;
+    background-color: #f2af29;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+}
+
+div.menuButton{
+  margin: auto;
+  margin-top: 10%;
+}
+.buttonContainer{
+  position: relative;
+  top: 20%;
+}
+
+.menuButton:hover {
+  background-color: lightslategray;
+}
+
+.menuButton:active {
+  background-color: rgb(96, 110, 124);
+  border-bottom: black 2px solid;
+  border-left: black 2px solid;
+}
+
+
+@media only screen and (max-width: 600px) {
+  /* For tablets: */
+  .menue{width: 90%;}
+}
+@media only screen and (max-width: 812px) {
+  .muteButton{left:80%;}
+}

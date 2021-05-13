@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  /* background-color: #f0efeb; */
+  background-image:url("./img/1.png");
+  /* background-repeat: repeat; */
+}
+h1 {
+    text-align:center ;
+    margin: 0 auto;
+    height: 4%;
+    color: white;
+}
+
+  .Defu{
+    color: black;  
+    text-align:center ;
+    font-size: 25px;  
+    margin: auto;  
+    /* line-height: 3; */
+  }
+  .gameContainer {
+    background-image:url("./img/123.png");
+    border-radius: 40px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 20%;
+    height: 80vh;
+    margin: auto;
+  }
+  
+  /* .borderbox{
+    margin: 30%;
+    margin-top: -31%;
+  } */
+  
+  .Layers {
+    position: relative;
+    width: 95%;
+    height: 15%;
+    /* background-image:url("/img/activebomb.png"); */
+    margin: auto;
+    margin-top: 3%;
+  }
+  
+  .graphic {
+
+    position: absolute;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    top: 15px;
+    left: 50%;
+  }
+  
+  .gameButton {
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    margin-top: 5%;
+    background-color: #f2af29;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+  }
+
+  .restartButton{
+    width: 15%;
+    height: 8%;
+    margin: 95%;
+    margin-top: -30%;
+    background-color: #f2af29;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+  }
+  .muteButton{
+    background-color: #f2af29;
+    position: absolute;
+    top: 6%;
+    left: 57%;
+    border-radius: 40px;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 1% 2%;
+    margin-top: 1%;
+    cursor: pointer;
+  }
+
+  .fa{
+    margin-top: 19%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    user-select: none;
+    -moz-user-select: none;
+  }
+  
+  .restartButton:hover {
+    background-color: lightslategray;
+  }
+  .restartButton:active{
+    background-color: rgb(96, 110, 124);
+    border-bottom: black 2px solid;
+    border-left: black 2px solid;
+  }
+  .gameButton:hover {
+    background-color: lightslategray;
+  }
+  
+  .gameButton:active {
+    background-color: rgb(96, 110, 124);
+    border-bottom: black 2px solid;
+    border-left: black 2px solid;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    /* For tablets: */
+    .gameContainer{width: 90%;}
+  }
+  @media only screen and (max-width: 812px) {
+    .muteButton{left:80%;}
+  }
